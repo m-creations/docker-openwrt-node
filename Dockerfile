@@ -6,5 +6,5 @@ MAINTAINER Kambiz Darabi <darabi@m-creations.net>
 CMD ["/usr/bin/node"]
 
 RUN opkg update &&\
-    opkg install node &&\
+    opkg install nodejs nodejs-npm &&\
     rm /tmp/opkg-lists/*
