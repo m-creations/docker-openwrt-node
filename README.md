@@ -2,8 +2,7 @@ docker-openwrt-node
 ===================
 
 A docker image with [Node.js](http://nodejs.org) and
-[npm](https://www.npmjs.com/) based on
-[OpenWRT](http://openwrt.org/).
+[npm](https://www.npmjs.com/) based on [OpenWRT](http://openwrt.org/).
 
 The minimal size of OpenWRT, which is a distro for embedded devices
 make the docker image size as small as possible (currently < 20 MB).
